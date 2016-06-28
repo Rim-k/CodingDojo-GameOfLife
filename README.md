@@ -1,5 +1,3 @@
-# CodingDojo-GameOfLife
-
 # Atelier Coding Dojo : Game of life (Jeu de la vie)
 
 Pour cette session de Coding Dojo, nous vous invitons à un atelier de découverte et de mise en pratique de la méthode TDD (Test Driven Development).
