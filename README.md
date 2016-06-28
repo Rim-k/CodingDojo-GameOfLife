@@ -19,8 +19,8 @@ C'est un cycle itératif comprenant les étapes suivantes:
 5- On refactorer le code (y compris les tests unitaires) pour l'améliorer tout en s'assurant que les tests restent au vert
 
 Le challenge ?
+--------------
 Nous allons mettre en pratique ensemble cette méthode en implémentant le jeu Game of life (Le jeu de la vie). Un automate cellulaire où l'on doit calculer à chaque itération l'évolution des cellules suivant 4 règles. Chaque cellule pouvant prendre 2 états distincts: "vivante" ou "morte".
-
 
 	* Une cellule vivante avec moins de deux voisines vivantes meurt (sous-population)
 	* Une cellule vivante avec plus de trois voisines vivantes meurt (sur-population)
@@ -29,11 +29,13 @@ Nous allons mettre en pratique ensemble cette méthode en implémentant le jeu G
 
 
 Comment ça se passe ?
+---------------------
 15 minutes de présentation: petite introduction sur le TDD
 60 minutes d'implémentation
 15 minutes de debrief
 
 Qui peut participer ?
+---------------------
 Tous les développeurs sont les bienvenus: du débutant à l'expert, en passant par le niveau intermédiaire.
 Seule condition: Venir avec un ordinateur et un environnement de développement fonctionnel (JAVA, C#, JavaScript, ....)
 
