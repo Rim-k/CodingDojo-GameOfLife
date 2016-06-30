@@ -10,21 +10,38 @@ Le TDD est une méthode de développement logiciel qui consiste à écrire les t
 - Les tests aident à comprendre du code legacy: c'est une documentation vivante
 
 C'est un cycle itératif comprenant les étapes suivantes:
-1- On écrit un petit nombre de tests unitaires
-2- On s'assure que les tests échouent (parce que le code n'est pas encore implémenté)
-3- On écrit le code juste nécessaire: KISS (Keep It Simple and Stupid)
-4- On vérifie que les tests passent tous
-5- On refactorer le code (y compris les tests unitaires) pour l'améliorer tout en s'assurant que les tests restent au vert
+- 1 On écrit un petit nombre de tests unitaires
+- 2 On s'assure que les tests échouent (parce que le code n'est pas encore implémenté)
+- 3 On écrit le code juste nécessaire: KISS (Keep It Simple and Stupid)
+- 4 On vérifie que les tests passent tous
+- 5 On refactorer le code (y compris les tests unitaires) pour l'améliorer tout en s'assurant que les tests restent au vert
 
 Le challenge ?
 --------------
-Nous allons mettre en pratique ensemble cette méthode en implémentant le jeu Game of life (Le jeu de la vie). Un automate cellulaire où l'on doit calculer à chaque itération l'évolution des cellules suivant 4 règles. Chaque cellule pouvant prendre 2 états distincts: "vivante" ou "morte".
+Nous allons mettre en pratique ensemble cette méthode en implémentant le jeu Game of life (Le jeu de la vie). Un automate cellulaire où l'on doit calculer à chaque itération l'évolution des cellules suivant. Chaque cellule pouvant prendre 2 états distincts: "vivante" ou "morte". Les cellules sont dans une grille à deux dimensions de taille finie. Leur état évolue suivant 4 règles
 
-	* Une cellule vivante avec moins de deux voisines vivantes meurt (sous-population)
-	* Une cellule vivante avec plus de trois voisines vivantes meurt (sur-population)
-	* Une cellule vivante avec deux ou trois voisines vivantes reste vivante sur la prochaine génération
-	* Une cellule morte avec exactement trois voisines vivantes devient une cellule vivante
+	* Règle 1: Une cellule vivante avec moins de deux voisines vivantes meurt (sous-population)
+	* Règle 2: Une cellule vivante avec plus de trois voisines vivantes meurt (sur-population)
+	* Règle 3: Une cellule vivante avec deux ou trois voisines vivantes reste vivante sur la prochaine génération
+	* Règle 4: Une cellule morte avec exactement trois voisines vivantes devient une cellule vivante
 
+Nous devons écrire un programme qui prend en entrée une grille de cellules et calcule la grille de la nouvelle génération de cellules.
+
+**Exemple **: on lit en entrée un fichier texte de la première génération de cellules
+
+4 8
+........
+....*...
+...**...
+........
+
+Et la sortie doit être la nouvelle grille avec la deuxième génération de cellules
+
+4 8
+........
+...**...
+...**...
+........
 
 Comment ça se passe ?
 ---------------------
