@@ -27,21 +27,28 @@ Nous allons mettre en pratique ensemble cette méthode en implémentant le jeu G
 
 Nous devons écrire un programme qui prend en entrée une grille de cellules et calcule la grille de la nouvelle génération de cellules.
 
-**Exemple **: on lit en entrée un fichier texte de la première génération de cellules
+**Exemple**: on lit en entrée la première génération de cellules
 
-4 8<br />
-........<br />
-....*...<br />
-...**...<br />
-........<br />
+4 8
+
+
+| .  | .  | .  | .  | .  | .  | .  |.  |
+|---|---|---|---|---|---|---|---|
+| .  | .  | .  | .  | *  | .  | .  |.  |
+| .  | .  | .  | *  | *  | .  | .  |.  |
+| .  | .  | .  | .  | .  | .  | .  |.  |
 
 Et la sortie doit être la nouvelle grille avec la deuxième génération de cellules
 
-4 8<br />
-........<br />
-...**...<br />
-...**...<br />
-........<br />
+4 8
+
+
+| .  | .  | .  | .  | .  | .  | .  |.  |
+|---|---|---|---|---|---|---|---|
+| .  | .  | .  | *  | *  | .  | .  |.  |
+| .  | .  | .  | *  | *  | .  | .  |.  |
+| .  | .  | .  | .  | .  | .  | .  |.  |
+
 
 Comment ça se passe ?
 ---------------------
