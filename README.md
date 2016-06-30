@@ -29,19 +29,19 @@ Nous devons écrire un programme qui prend en entrée une grille de cellules et 
 
 **Exemple **: on lit en entrée un fichier texte de la première génération de cellules
 
-4 8
-........
-....*...
-...**...
-........
+4 8<br />
+........<br />
+....*...<br />
+...**...<br />
+........<br />
 
 Et la sortie doit être la nouvelle grille avec la deuxième génération de cellules
 
-4 8
-........
-...**...
-...**...
-........
+4 8<br />
+........<br />
+...**...<br />
+...**...<br />
+........<br />
 
 Comment ça se passe ?
 ---------------------
