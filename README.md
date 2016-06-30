@@ -52,9 +52,9 @@ Et la sortie doit être la nouvelle grille avec la deuxième génération de cel
 
 Comment ça se passe ?
 ---------------------
-15 minutes de présentation: petite introduction sur le TDD
-60 minutes d'implémentation
-15 minutes de debrief
+>- 15 minutes de présentation: petite introduction sur le TDD
+>- 60 minutes d'implémentation
+>- 15 minutes de debrief
 
 Qui peut participer ?
 ---------------------
