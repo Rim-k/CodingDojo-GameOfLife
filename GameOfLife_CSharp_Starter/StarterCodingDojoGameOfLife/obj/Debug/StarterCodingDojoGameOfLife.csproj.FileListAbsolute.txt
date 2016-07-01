@@ -1,0 +1,6 @@
+C:\Dev\test\StarterCodingDojoGameOfLife\StarterCodingDojoGameOfLife\bin\Debug\StarterCodingDojoGameOfLife.exe.config
+C:\Dev\test\StarterCodingDojoGameOfLife\StarterCodingDojoGameOfLife\bin\Debug\StarterCodingDojoGameOfLife.exe
+C:\Dev\test\StarterCodingDojoGameOfLife\StarterCodingDojoGameOfLife\bin\Debug\StarterCodingDojoGameOfLife.pdb
+C:\Dev\test\StarterCodingDojoGameOfLife\StarterCodingDojoGameOfLife\obj\Debug\StarterCodingDojoGameOfLife.csprojResolveAssemblyReference.cache
+C:\Dev\test\StarterCodingDojoGameOfLife\StarterCodingDojoGameOfLife\obj\Debug\StarterCodingDojoGameOfLife.exe
+C:\Dev\test\StarterCodingDojoGameOfLife\StarterCodingDojoGameOfLife\obj\Debug\StarterCodingDojoGameOfLife.pdb
